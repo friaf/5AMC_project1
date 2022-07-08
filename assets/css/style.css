@@ -1,2 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,500" rel="stylesheet');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    color: black;
+   }
+
+/*headings and logo*/
+
+h1, h2 {
+    font-weight: 500;
+   }
+
+#logo {
+    float: left;
+    margin-left: 20px;
+    font-size: 180%;
+    color: #2c329c;
+}
+
 
