@@ -57,7 +57,7 @@ h1, h2, h3, a {
 
 #quote {
     padding-top: 10px;
-    height: 400px;
+    height: 500px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -65,7 +65,7 @@ h1, h2, h3, a {
 
 #image-header {
     background: url(../images/sunrise.jpg) center 80% / cover no-repeat;
-    height: 400px;
+    height: 500px;
 }
 
 #quote-header {
@@ -81,23 +81,43 @@ h1, h2, h3, a {
 
 #concept {
     height: 500px;
-    margin-top: 20px;
+    background-color: #E2F2F7;
+    overflow: hidden;
+    margin-top: 10px;
 }
 
-#concept-table h2 {
-    text-align: center;
-    margin-bottom: 35px;
-}
-
-#table {
+#concept-boxes {
     width: 100%;
-    margin-right: auto;
-    margin-left: auto;
+    padding-left: 25px;
+    padding-top: 45px;
+}
+#concept h2 {
+    text-align: center;
+    padding-top: 30px;
 }
 
-th {
-    background-color: #c5759d;
+#concept h1 {
+    text-align: center;
 }
+
+#concept-boxes div {
+    width: 16%;
+    height: 300px;
+    float: left;
+    padding: 50px 30px 30px 30px;
+    text-align: center;
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+
+hr {
+    border-top: 1px solid #4E676D;
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 10px; 
+}
+
+
 
 
 
