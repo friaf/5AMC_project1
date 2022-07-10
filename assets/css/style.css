@@ -9,7 +9,8 @@
 body {
     font-family: 'Lora', sans-serif;
     font-weight: 300;
-    color: black;
+    color: rgb(57, 55, 55);
+    background-image: url(../images/white.jpg);
    }
 
 /*headings, logo and nav bar*/
@@ -55,64 +56,7 @@ header {
     color: #f8f8f8;
 }
 
-/* welcome image */
 
-
-
-
-/*
-#logo {
-    float: left;
-    margin-left: 20px;
-    font-size: 180%;
-    position: fixed;
-    overflow: hidden;
-}
-#nav {
-    float: right;
-    margin-right: 20px;
-    font-size: 180%;
-    position: fixed;
-    overflow: hidden;
-}
-/* navigation bar 
-
-#nav {
-    font-size: 130%;
-    margin-right: 20px; 
-    position: relative;
-}
-
-#nav {
-    position: fixed;
-    overflow: hidden;
-}
-
-#logo, #nav {
-    line-height: 55px;
-}
-/*
-#menu li {
-    margin-right: 20px;
-    list-style-type: none;
-    float: right;
-
-}
-
-#nav a {
-    text-decoration: none;
-    color: inherit;
-    font-weight: 600;
-    position: block;
-    float: left;
-}
-
-#nav a:hover {
-    color: #c5759d;
-}
-
-
-/* quote and image section */
 
 #quote {
     padding-top: 5px;
@@ -123,7 +67,7 @@ header {
 }
 
 #image-header {
-    background: url(../images/welcome.jpg) center 80% / cover no-repeat;
+    background: url(../images/welcome.jpg) center 70% / cover no-repeat;
     height: 500px;
 }
 
@@ -163,6 +107,95 @@ margin-top: 100px;
     margin-top: 50px;
     text-align: center;
 }
+
+/* benefits section */
+
+#benefits {
+    height: 500px;
+}
+
+#benefits-image {
+    background: url(../images/lemon.jpg) center 70% / cover no-repeat;
+    height: 500px;
+    background-size: cover;
+}
+
+#benefits-info {
+    text-align: left;
+    padding-top: 50px;
+    padding-right: 50px;
+    color: #ffffff;
+    float: right;
+    
+}
+#benefits ul {
+    list-style: circle;
+}
+
+#benefits li {
+    margin-bottom: 15px;
+}
+
+#benefits h2 {
+    margin-bottom: 30px;
+}
+
+/* form */
+
+#join-form {
+    height: 500px;
+}
+
+#form-container {
+    border-radius: 25px;
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+    color: rgb(8, 8, 8);
+    background-color: rgba(144, 196, 223, 0.5);
+    max-width: 400px;
+    position: absolute;
+    margin-top: 50px;
+    left: 35%;
+}
+
+.text-input {
+    background: transparent;
+    color:  rgb(57, 55, 55);
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid rgb(57, 55, 55);;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: rgba(205, 143, 157, 0.995);
+}
+
+form h2 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#submit {
+    margin-top: 10px;
+    margin-left: 38%;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: rgba(205, 143, 157, 0.995);
+    color: white;
+    left: 30%;
+}
+
+#submit:hover {
+    background-color: #fafafa;
+    color: #f16c6b;
+}
+
 
 
 

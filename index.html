@@ -29,7 +29,7 @@
 
 
 
-                <a href="#about" class="right" aria-label="Go to top of the page">About</a>
+                <a href="#concept" class="right" aria-label="Go to top of the page">Concept</a>
 
             </div>
         </nav>
@@ -46,7 +46,7 @@
 
     <section id="concept">
 
-        <h1>6 rules to follow for a happier and fulfilling life:</h1>
+        <h1>6 rules to follow for a happy and fulfilling life:</h1>
         <div id="left-box">
             <div class="left-about">
                 <h3>Rise at 5 am <i class="fas fa-sun"></i></h3>
@@ -69,9 +69,11 @@
     </section>
 
     <section id="benefits">
-            <h2>The benefits of waking up at 5 am.</h2>
+        <div id="benefits-image">
+            <div id="benefits-info">
+            <h2>The benefits of waking up at 5 am</h2>
 
-        <div>
+      
             <ul>
                 <li>
                     You'll have time to connect with yourself, your purpose, and your High Power
@@ -104,24 +106,23 @@
                     You'll be a new (and better) person
                 </li>
             </ul>
-
-            <p>“Take excellent care of the front end of your day, and the rest of your day will pretty much
-                take care of itself. Own your morning. Elevate your life.”</p>
         </div>
+    </div>
 
     </section>
 
     <section id="join-form">
+        <div id="form-container">
         <form method="post" action="https://formdump.codeinstitute.net/">
             <h2>Join us to change your life!</h2>
             <label for="fname">First Name:</label>
-            <input type="text" id="fname" name="first_name" required>
+            <input class="text-input" type="text" id="fname" name="first_name" required>
 
             <label for="lname">Last Name:</label>
-            <input type="text" id="lname" name="last_name" required>
+            <input class="text-input" type="text" id="lname" name="last_name" required>
 
-            <label for="age">Age</label>
-            <select name="age" id="age" required>
+            <label for="age">Age:</label>
+            <select class="text-input" name="age" id="age" required>
                 <option value="18-28">18-28</option>
                 <option value="29-39">29-39</option>
                 <option value="40-50">40-50</option>
@@ -130,15 +131,18 @@
                 <option value="73-83">29-39</option>
                 <option value="84-94">84-94</option>
                 <option value="94 and above">94 and above ;)</option>
+            
             </select>
 
 
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+            <input class="text-input" type="email" id="email" name="email" required>
 
 
-            <input type="submit" value="Join!">
+            <input id="submit" type="submit" value="Join!">
         </form>
+        
+      </div>
     </section>
 
     <footer>
