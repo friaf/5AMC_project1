@@ -26,10 +26,11 @@ header {
 
 #nav {
   overflow: hidden;
-  background-color: yellow;
-  position: fixed; /* Set the navbar to fixed position */
+  background-color: rgba(241, 223, 58, 0.995) !important;
+  position: fixed; 
   width: 100%; 
   height: 50px;
+  z-index: 1;
 }
 
 .left {
@@ -114,7 +115,7 @@ header {
 /* quote and image section */
 
 #quote {
-    padding-top: 10px;
+    padding-top: 5px;
     height: 500px;
     width: 100%;
     overflow: hidden;
@@ -122,28 +123,31 @@ header {
 }
 
 #image-header {
-    background: url(../images/sunrise.jpg) center 80% / cover no-repeat;
+    background: url(../images/welcome.jpg) center 80% / cover no-repeat;
     height: 500px;
 }
 
 #quote-header {
-    padding-top: 50px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-top: 350px;
     text-align: center;
-    position: absolute;
-    color: #4E676D;
+    color: #f8fafb;
 }
 
 /* 5 rules */
 
 #concept {
     height: 500px;
-    background-color: #E2F2F7;
-    overflow: hidden;
-    margin-top: 10px;
 }
 
+#concept-boxes {
+    display: flex;
+    align-content: space-between;
+}
+
+
+
+
+/*
 #concept-boxes {
     width: 100%;
     padding-left: 25px;
@@ -174,7 +178,7 @@ hr {
     margin-bottom: 50px;
     margin-top: 10px; 
 }
-
+*/
 
 
 
