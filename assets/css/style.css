@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand:300,500" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet');
 
 * {
     margin: 0;
@@ -7,48 +7,106 @@
 }
 
 body {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Lora', sans-serif;
     font-weight: 300;
-    color: #4E676D;
+    color: black;
    }
 
-/*headings and logo*/
+/*headings, logo and nav bar*/
 
 h1, h2, h3, a {
-    font-weight: 500;
+    font-weight: 300;
     color: inherit;
+    font-family: 'Montserrat', sans-serif;
    }
 
+header {
+    height: 50px;
+}
+
+#nav {
+  overflow: hidden;
+  background-color: yellow;
+  position: fixed; /* Set the navbar to fixed position */
+  width: 100%; 
+  height: 50px;
+}
+
+.left {
+    float: left;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.right {
+    float: right;
+    padding: 15px 15px 15px 15px;
+}
+
+.left, .right {
+    display: block;
+    text-decoration: none;
+    line-height: 25px;
+}
+
+.right:hover {
+    background: rgb(18, 119, 182);
+    color: #f8f8f8;
+}
+
+/* welcome image */
+
+
+
+
+/*
 #logo {
     float: left;
     margin-left: 20px;
     font-size: 180%;
+    position: fixed;
+    overflow: hidden;
 }
-
-/* navigation bar */
-
-#menu {
-    font-size: 130%;
-    margin-right: 20px; 
-}
-
-#logo, #menu {
-    line-height: 55px;
-}
-
-#menu li {
+#nav {
     float: right;
     margin-right: 20px;
-    list-style-type: none;
+    font-size: 180%;
+    position: fixed;
+    overflow: hidden;
+}
+/* navigation bar 
+
+#nav {
+    font-size: 130%;
+    margin-right: 20px; 
+    position: relative;
 }
 
-#menu a {
+#nav {
+    position: fixed;
+    overflow: hidden;
+}
+
+#logo, #nav {
+    line-height: 55px;
+}
+/*
+#menu li {
+    margin-right: 20px;
+    list-style-type: none;
+    float: right;
+
+}
+
+#nav a {
     text-decoration: none;
     color: inherit;
     font-weight: 600;
+    position: block;
+    float: left;
 }
 
-#menu a:hover {
+#nav a:hover {
     color: #c5759d;
 }
 
