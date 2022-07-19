@@ -70,12 +70,19 @@ header {
 }
 
 #image-header {
+    background: url(../images/welcome.jpg) center 70%/ cover no-repeat;
+    width: 100%;
+    height: inherit;
+}
+/*
+#image-header {
     background: url(../images/welcome.jpg) center 70% / cover no-repeat;
     height: 500px;
 }
+*/
 
 #quote-header {
-    padding-top: 350px;
+    padding-top: 360px;
     text-align: center;
     color: #f8fafb;
 }
@@ -88,29 +95,22 @@ header {
 }
 
 #video {
-    float: right;
-    padding-right: 100px;
-    padding-top: 85px;
-    position: relative;
-    z-index: 1;
-}
-
-#left-box {
-    float: left;
-    margin: 100px 150px 100px 150px;
+    margin: 90px 5%;
     position: absolute;
 }
 
-#left-box h2 {
-    padding-top: 30px;
+#left-box {
+    float: right;
+    margin: 90px 5%;
 }
 
+
 #left-box ol {
-    padding-top: 20px;
+    padding-top: 35px;
 }
 
 #left-box li {
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 
@@ -121,30 +121,26 @@ header {
 }
 
 #benefits-image {
-    background: url(../images/lemon.jpg) center 70% / cover no-repeat;
+    background: url(../images/lemon.jpg) center 80% / cover no-repeat;
     height: 500px;
-    background-size: cover;
+    width: 100%;
 }
 
 #benefits-info {
     text-align: left;
-    padding-top: 50px;
-    padding-right: 50px;
+    margin: 5px 3%;
+    padding: 25px 5%;
     color: #ffffff;
-    float: right;
-    position: relative;
-    
+    float: right; 
 }
+
 #benefits ul {
-    list-style: circle;
+    list-style: disc;
+    padding-top: 30px;
 }
 
 #benefits li {
-    margin-bottom: 15px;
-}
-
-#benefits h2 {
-    margin-bottom: 30px;
+    padding-bottom: 15px;
 }
 
 /* form */
@@ -154,7 +150,6 @@ header {
 }
 
 #form-container {
-    border-radius: 25px;
     padding: 20px;
     width: 400px;
     height: 400px;
