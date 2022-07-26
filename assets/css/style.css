@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet');
 
 * {
-    margin: 0;
+    margin: auto;
     padding: 0;
     border: 0;
 }
@@ -10,7 +10,7 @@ body {
     font-family: 'Lora', sans-serif;
     font-weight: 300;
     color: rgb(57, 55, 55);
-    background-image: url(../images/white.jpg);
+    background-color: silver;
     width: 100%;
 }
 
@@ -49,7 +49,7 @@ header {
     padding: 15px 15px 15px 15px;
 }
 
-.left,
+
 .right {
     display: block;
     text-decoration: none;
@@ -67,7 +67,7 @@ header {
 /* welcome image and quote */
 
 #quote {
-    padding-top: 5px;
+    padding-top: 7px;
     height: 600px;
     width: 100%;
     overflow: hidden;
@@ -77,7 +77,6 @@ header {
 #image-header {
     background: url(../images/welcome.jpg) center 70% / cover no-repeat;
     width: 100%;
-    
     height: inherit;
 }
 
@@ -89,6 +88,7 @@ header {
 */
 
 #quote-header {
+
     padding-top: 450px;
     text-align: center;
     color: rgb(57, 55, 55);
@@ -97,6 +97,7 @@ header {
 /* concept and steps */
 
 #concept {
+    padding-top: 7px;
     height: 600px;
     width: 100%;
 }
@@ -123,11 +124,12 @@ iframe {
 /* benefits section */
 
 #benefits {
+    padding-top: 7px;
     height: 600px;
 }
 
 #benefits-image {
-    background: url(../images/lemon.jpg) center 70% / cover no-repeat;
+    background: url(../images/lemon_large.jpg) center center / cover no-repeat;
     height: 600px;
     width: 100%;
 }
@@ -155,6 +157,13 @@ iframe {
 
 #join-form {
     height: 500px;
+    padding-top: 7px;
+}
+
+#form-image {
+    background: url(../images/white.jpg) center center / cover no-repeat;
+    width: 100%;
+    height: 500px;
 }
 
 #form-container {
@@ -165,7 +174,7 @@ iframe {
     max-width: 400px;
     position: absolute;
     margin-top: 50px;
-    left: 35%;
+    left: 34%;
 }
 
 .text-input {
@@ -173,7 +182,7 @@ iframe {
     color: rgb(57, 55, 55);
     width: 100%;
     height: 25px;
-    margin: 5px 0 20px 0;
+    margin: 5px 0 10px 0;
     border: 1px solid rgb(57, 55, 55);
     border-radius: 2px;
 }
@@ -194,7 +203,7 @@ form h2 {
 }
 
 #submit {
-    margin-top: 10px;
+    margin-top: 5px;
     margin-left: 38%;
     border-radius: 2px;
     padding: 10px 30px 10px 30px;
@@ -213,14 +222,20 @@ form h2 {
 /* section footer */
 
 footer {
-    height: 100px;
+    padding-top: 7px;
+   
+  
+}
+
+#footer-color {
+  height: 120px;
     width: 100%;
     background-color: rgba(39, 150, 210, 0.8);
 }
 
 
 #footer-info {
-    padding-top: 40px;
+  padding-top: 50px;
 }
 
 #icons {
@@ -244,38 +259,68 @@ footer {
 
 /* Media queries */
 
-/* For large to medium screens sizes from 650px wide and down */
-@media screen and (max-width: 650px){
+/* screens size from 650px wide and down */
+@media screen and (max-width: 650px) {
+
+    body {
+        min-width: 670px;
+    }
 
     #quote {
         height: 400px;
     }
-   
- #image-header {
-    background-size: 100% 100%;
-    max-height: 400px;
- }
 
- #quote-header {
-    padding-top: 280px;
-    font-weight: 400;
-}
+    #image-header {
+        background: url(../images/small.jpg) center 70% / cover no-repeat;
+        width: 100%;
+        max-height: 400px;
+    }
 
-#concept {
-    height: 400px;
-}
+    #quote-header {
+        padding: 280px 10px 10px 10px;
+        font-weight: 400;
+    }
 
-iframe {
-    height: 400px;
-}
+    #concept {
+        height: 400px;
+    }
 
-benefits {
-    height: 400px;
-}
+    iframe {
+        height: 400px;
+        width: 100%;
+    }
 
-   
+    #benefits {
+        height: 400px;
+    }
+
+    #benefits-image {
+        background: url(../images/lemon_small.jpg) center center / cover no-repeat;
+        height: 400px;
+
+    }
+
     #benefits-info {
-        padding-top: 5px; 
+        padding: 20px 10px 20px 10px;
+        float: left;
+        font-size: small;
+    }
+    #join-form {
+        height: 400px;
+    }
+
+    #form-image {
+        background: url(../images/white.jpg) center center / cover no-repeat;
+        height: 400px;
+    }
+
+    #form-container {
+        padding: 10px;
+        width: 400px;
+        height: 300px;
+        max-width: 350px;
+        margin-top: 8px;
+        left: 36%;
     }
 
 }
