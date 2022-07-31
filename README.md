@@ -65,8 +65,15 @@ Lighthouse Accessibility check
 ![lighthouse](/assets/images/lighthouse_check.png)
 
 ## Deployment
+The site was deployed to GitHub pages. The steps to deploy are as followes.
+
+- In the GitHub repository navigate to the settings tab
+- From the source section drop-down menu, select the Master Branch
+- Once the master branch has been selected, the page provided the link to the complit website.
 
 ## Credits
 
-## Media
+### Content
+
+### Media
 
