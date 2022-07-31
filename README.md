@@ -9,11 +9,64 @@ Users of this website will be able to find all the information they need to beco
 
 ### Navigation Bar
 
-o	Featured on all three sections of the landing page, the full responsive navigation bar includes links to the Logo section, Concept section, Benefits secion and Join section of the page. Nav bar is fixed on top of the site so it would be easier to navigat.
-o	This section will allow the user to easily navigate from section to section across all devices without having to scroll back to the previous section.
+Featured on all three sections of the landing page, the full responsive navigation bar includes links to the Logo section, Concept section, Benefits secion and Join section of the page. Nav bar is fixed on top of the site so it would be easier to navigat.
 
-![nav_bar](nav_bar.png)
+This section will allow the user to easily navigate from section to section across all devices without having to scroll back to the previous section.
 
-### The landing page image
+![navbar](/assets/images/nav_bar.png)
+
+### Welcome Section (Logo section)
+
 o	The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
 o	This section introduces the user to Love Running with an eye catching animation to grab their attention
+
+![welcome_section](/assets/images/welcome_section.png)
+
+### Concept Section
+
+Video
+
+![Concept_section](/assets/images/concept_section.png)
+
+
+### Benefits Section 
+
+list of benefits
+
+![Benefits_section](/assets/images/bemefits_section.png)
+
+
+### Join Section
+
+join us form
+
+![Join_section](/assets/images/join_section.png)
+
+### Footer
+
+fotter
+
+![footer_section](/assets/images/footer.png)
+
+
+## Testing 
+
+## Bugs
+
+## Validator Testing
+
+### HTML 
+No errors were returned when passing through the official W3C validator
+### CSS
+No errors were found when passing through the official CSS3 validator
+### Accessibility
+Lighthouse Accessibility check 
+
+![lighthouse](/assets/images/lighthouse_check.png)
+
+## Deployment
+
+## Credits
+
+## Media
+
