@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet');
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300&display=swap rel=stylesheet");
 
 * {
     margin: auto;
@@ -75,17 +75,11 @@ header {
 }
 
 #image-header {
-    background: url(../images/welcome.jpg) center 70% / cover no-repeat;
+    background: url(../images/welcome.avif) center 70% / cover no-repeat;
     width: 100%;
     height: inherit;
 }
 
-/*
-#image-header {
-    background: url(../images/welcome.jpg) center 70% / cover no-repeat;
-    height: 500px;
-}
-*/
 
 #quote-header {
 
@@ -129,7 +123,7 @@ iframe {
 }
 
 #benefits-image {
-    background: url(../images/lemon_large.jpg) center center / cover no-repeat;
+    background: url(../images/lemon_large.avif) center center / cover no-repeat;
     height: 600px;
     width: 100%;
 }
@@ -161,7 +155,7 @@ iframe {
 }
 
 #form-image {
-    background: url(../images/white.jpg) center center / cover no-repeat;
+    background: url(../images/white.avif) center center / cover no-repeat;
     width: 100%;
     height: 500px;
 }
@@ -271,7 +265,7 @@ footer {
     }
 
     #image-header {
-        background: url(../images/small.jpg) center 70% / cover no-repeat;
+        background: url(../images/small.avif) center 70% / cover no-repeat;
         width: 100%;
         max-height: 400px;
     }
@@ -295,7 +289,7 @@ footer {
     }
 
     #benefits-image {
-        background: url(../images/lemon_small.jpg) center center / cover no-repeat;
+        background: url(../images/lemon_small.avif) center center / cover no-repeat;
         height: 400px;
 
     }
@@ -310,7 +304,7 @@ footer {
     }
 
     #form-image {
-        background: url(../images/white.jpg) center center / cover no-repeat;
+        background: url(../images/white.avif) center center / cover no-repeat;
         height: 400px;
     }
 
@@ -324,3 +318,5 @@ footer {
     }
 
 }
+
+
