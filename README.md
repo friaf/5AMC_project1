@@ -9,42 +9,43 @@ Users of this website will be able to find all the information they need to beco
 
 ### Navigation Bar
 
-Featured on all three sections of the landing page, the full responsive navigation bar includes links to the Logo section, Concept section, Benefits secion and Join section of the page. Nav bar is fixed on top of the site so it would be easier to navigat.
+- Featured on all three sections of the landing page, the full responsive navigation bar includes links to the Logo section, Concept section, Benefits secion and Join section of the page. Nav bar is fixed on top of the site so it would be easier to navigat.
 
-This section will allow the user to easily navigate from section to section across all devices without having to scroll back to the previous section.
+- This section will allow the user to easily navigate from section to section across all devices without having to scroll back to the previous section.
 
 ![navbar](/assets/images/nav_bar.png)
 
 ### Welcome Section (Logo section)
 
-o	The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
-o	This section introduces the user to Love Running with an eye catching animation to grab their attention
+- The welcome section is a landing of this site, when clicking on logo in the nav bar it takes us to this section. Section has eye catching image with welcome sign and a quote of the author of the concept.
 
 ![welcome_section](/assets/images/welcome_section.png)
 
 ### Concept Section
 
-Video
+Concept section has video of the concept of 5 AM Club, it explains all the rules you need to follow to succeed.
 
 ![Concept_section](/assets/images/concept_section.png)
 
 
 ### Benefits Section 
 
-list of benefits
+- Benefits section has list of benefits that will accure if a member understands concept and follows the rules.
 
 ![Benefits_section](/assets/images/bemefits_section.png)
 
 
 ### Join Section
 
-join us form
+- Join section collects  details from users so they could become members of 5 AM Club.
+- Users provide details like email, age, name and family name.
 
 ![Join_section](/assets/images/join_section.png)
 
-### Footer
+### Follow
 
-fotter
+Follow section provides list of social media where our club is based, so that members could share results, and have all up to date updates and news.
+
 
 ![footer_section](/assets/images/footer.png)
 
@@ -77,3 +78,6 @@ The site was deployed to GitHub pages. The steps to deploy are as followes.
 
 ### Media
 
+- Background images where taken from https://www.pexels.com/
+- Icons where taken from https://fontawesome.com/
+- Fonts were used from https://artisanthemes.io/best-google-fonts-combinations-modern-agency-website/
