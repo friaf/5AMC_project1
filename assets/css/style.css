@@ -168,7 +168,7 @@ iframe {
     max-width: 400px;
     position: absolute;
     margin-top: 50px;
-    left: 34%;
+    left: 50em;
 }
 
 .text-input {
@@ -323,7 +323,7 @@ footer {
 /* screens size from 350px wide and down */
 @media screen and (max-width: 350px) {
     #nav {
-            margin-bottom: 5em;
+     margin-bottom: 5em;
       box-sizing: border-box;
       max-width: 50em;
       width:100% ;
@@ -331,13 +331,5 @@ footer {
       justify-content: space-between;
     }
     
-    footer{
-        margin-bottom: 5em;
-        box-sizing: border-box;
-        max-width: 50em;
-        width:100% ;
-        display:flex;
-        justify-content: space-between;
-    }
     }
     
